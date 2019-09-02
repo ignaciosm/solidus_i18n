@@ -1,4 +1,19 @@
 es-PE:
+  currency:
+    format:
+      separator: "."
+      delimiter: ","
+  date:
+    formats:
+      slots: "%d-%m-%Y"
+      long: "%d-%m-%Y"
+  time:
+    formats:
+      long: '%A, %B %d, %Y'
+      short: '%b %d, %Y'
+      solidus:
+        long: '%A, %B %d, %Y'
+        short: '%b %d, %Y'   
   activemodel:
     attributes:
       spree/order_cancellations:
